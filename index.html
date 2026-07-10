@@ -1,0 +1,55 @@
+<html>
+
+<head>
+
+<title>Time App</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <h1> Time Website</h1>
+    <nav>
+        <button onclick="showPage('clock')">Clock</button>
+        <button onclick="showPage('stopwatch')">Stopwatch</button>
+        <button onclick="showPage('timer')">Timer</button>
+    </nav>
+</header>
+
+<div class="container">
+
+    <!-- Clock -->
+    <section id="clock" class="page active">
+        <h2>Digital Clock</h2>
+        <div id="clockDisplay" class="display">00:00:00</div>
+    </section>
+
+    <!-- Stopwatch -->
+    <section id="stopwatch" class="page">
+        <h2>Stopwatch</h2>
+        <div id="stopwatchDisplay" class="display">00:00:00</div>
+
+        <button onclick="startStopwatch()">Start</button>
+        <button onclick="stopStopwatch()">Stop</button>
+        <button onclick="resetStopwatch()">Reset</button>
+    </section>
+
+    <!-- Timer -->
+    <section id="timer" class="page">
+        <h2>Countdown Timer</h2>
+
+        <input type="number" id="timerInput" placeholder="Enter minutes">
+
+         <div id="timerDisplay">00:00</div>
+
+         <button onclick="startTimer()">Start</button>
+         <button onclick="stopTimer()">Stop</button>
+         <button onclick="resetTimer()">Reset</button>
+    </section>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
