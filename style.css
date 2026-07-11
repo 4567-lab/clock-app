@@ -1,7 +1,7 @@
 
 *{
-    margin:0;
-    padding:0;
+    margin: 9px;
+    padding: 6px;
     box-sizing:border-box;
     font-family:'Poppins',sans-serif;
 }
@@ -11,7 +11,7 @@ body{
     display:flex;
     justify-content:center;
     align-items:center;
-    background:linear-gradient(135deg,#0f172a,#1e3a5f);
+    background:linear-gradient(135deg,#eaeaec,#f3f5f8c1);
 }
 
 /* Mobile App Container */
@@ -19,11 +19,11 @@ body{
 .container{
     width:390px;
     height:820px;
-    background:rgba(255,255,255,.08);
+    background:rgba(33, 132, 150, 0.297);
     backdrop-filter:blur(20px);
     border-radius:35px;
-    box-shadow:0 20px 60px rgba(0,0,0,.45);
-    border:1px solid rgba(255,255,255,.15);
+    box-shadow:0 20px 60px rgba(138, 133, 133, 0.923);
+    border:1px solid rgb(165, 145, 145);
     overflow:hidden;
     position:relative;
 }
@@ -31,7 +31,7 @@ body{
 /* Header */
 
 header{
-    padding:25px;
+    padding:50px;
     display:flex;
     flex-direction:column;
     align-items:center;
@@ -47,9 +47,9 @@ header h1{
 /* Navigation */
 
 nav{
-    display:flex;
+    display:center;
     gap:15px;
-    margin-top:20px;
+    margin-top:40px;
 }
 
 nav button{
@@ -58,8 +58,8 @@ nav button{
     height:45px;
     border:none;
     border-radius:25px;
-    background:rgba(255,255,255,.15);
-    color:white;
+    background:rgba(13, 151, 237, 0.901);
+    color:rgb(238, 238, 238);
     font-size:15px;
     cursor:pointer;
     transition:.3s;
@@ -68,7 +68,7 @@ nav button{
 
 nav button:hover{
 
-    background:#00bfff;
+    background:#175cde;
     transform:scale(1.08);
 
 }
@@ -104,7 +104,7 @@ nav button:hover{
 
 .page h2{
 
-    color:white;
+    color:rgb(246, 243, 243);
     margin-bottom:20px;
     font-size:32px;
 
@@ -114,23 +114,23 @@ nav button:hover{
 
 .display{
 
-    width:300px;
+    width:350px;
     height:120px;
 
     display:flex;
     justify-content:center;
     align-items:center;
 
-    background:rgba(255,255,255,.08);
+    background:rgb(236, 230, 230);
 
     border-radius:25px;
 
     font-size:52px;
     font-weight:bold;
 
-    color:#00ffff;
+    color:#0c0c0c;
 
-    box-shadow:0 0 20px cyan;
+    box-shadow:0 0 20px rgb(25, 141, 141);
 
     margin-bottom:35px;
 
@@ -148,9 +148,9 @@ input{
 
     border-radius:20px;
 
-    background:rgba(255,255,255,.15);
+    background:rgba(255, 255, 255, 0.874);
 
-    color:white;
+    color:rgb(12, 12, 12);
 
     text-align:center;
 
@@ -162,7 +162,7 @@ input{
 
 input::placeholder{
 
-    color:#ddd;
+    color:#121212;
 
 }
 
@@ -180,9 +180,9 @@ button{
 
     border-radius:30px;
 
-    background:linear-gradient(90deg,#00c6ff,#6eff9c);
+    background:linear-gradient(90deg,#f7f9fabb,#edf2ee);
 
-    color:black;
+    color:rgb(139, 203, 248);
 
     font-size:18px;
 
@@ -198,7 +198,7 @@ button:hover{
 
     transform:translateY(-4px);
 
-    box-shadow:0 10px 20px rgba(0,0,0,.35);
+    box-shadow:0 10px 20px rgba(255, 254, 254, 0.697);
 
 }
 /* =========================
@@ -210,7 +210,7 @@ button:hover{
 
 .container{
     width:420px;
-    height:850px;
+    height:700px;
 }
 
 .display{
@@ -223,8 +223,8 @@ button:hover{
 @media (max-width: 1199px) {
 
 .container{
-    width:390px;
-    height:820px;
+    width:400px;
+    height:700px;
 }
 
 }
@@ -254,7 +254,7 @@ nav{
 }
 
 nav button{
-    width:100px;
+    width:50px;
     height:42px;
 }
 
@@ -284,7 +284,7 @@ button{
 
 body{
     padding:0;
-    background:#0f172a;
+    background:#f6f3f3;
 }
 
 .container{
